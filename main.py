@@ -12,6 +12,10 @@ import firebase_admin
 from firebase_admin import credentials, db
 import os
 from keep_alive import keep_alive
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 # Setup logging
 logging.basicConfig(
